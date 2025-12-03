@@ -7,7 +7,7 @@ Fine-tuned BLIP (Ours)	0.0	  0.89
 
 🟢 Result: Over a 6.7× improvement in semantic accuracy (METEOR)
 Fine-tuned model now understands terms like "men blue t-shirt for sports wear" instead of generic "a man wearing clothes."
-'''
+<pre><code>
 fashion-image-captioning/
 │
 ├── data/
@@ -23,10 +23,13 @@ fashion-image-captioning/
 │
 ├── fine_tuned_blip_fashion/              # Saved fine-tuned model (auto-created)
 │
-├── finetune.py                           # Fine-tuning script             
+├── finetune.py                           # Fine-tuning script
+├── test_finetuned_blip.py                # Evaluation script (batch testing)
+├── test_single_image.py                  # Inference for single image
 ├── requirements.txt                      # All dependencies
 └── README.md                             # Project documentation
-'''
+</code></pre>
+
 
 📦 Dataset Preparation
 
