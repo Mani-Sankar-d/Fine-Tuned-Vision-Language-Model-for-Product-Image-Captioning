@@ -24,8 +24,7 @@ fashion-image-captioning/
 ├── fine_tuned_blip_fashion/              # Saved fine-tuned model (auto-created)
 │
 ├── finetune.py                           # Fine-tuning script
-├── test_finetuned_blip.py                # Evaluation script (batch testing)
-├── test_single_image.py                  # Inference for single image
+├── test.py                               # for evaluation
 ├── requirements.txt                      # All dependencies
 └── README.md                             # Project documentation
 </code></pre>
