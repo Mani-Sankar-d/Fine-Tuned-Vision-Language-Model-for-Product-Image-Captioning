@@ -3,7 +3,7 @@ We fine-tuned it on 10K curated fashion product images (from the Kaggle Fashion 
 <pre><code>
         Model	          BLEU	METEOR
 Zero-shot (Base BLIP)	  0.0	  0.13
-Fine-tuned BLIP (Ours)	0.0	  0.89
+Fine-tuned BLIP (Ours)	  0.0	  0.89
 </code></pre>
 
 
