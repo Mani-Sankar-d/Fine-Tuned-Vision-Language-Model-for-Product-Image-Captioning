@@ -1,12 +1,18 @@
 The base BLIP model is trained on general image–text pairs.
 We fine-tuned it on 10K curated fashion product images (from the Kaggle Fashion Product Images Dataset) to specialize it for apparel captioning.
-
+<pre><code>
         Model	          BLEU	METEOR
 Zero-shot (Base BLIP)	  0.0	  0.13
 Fine-tuned BLIP (Ours)	0.0	  0.89
+</code></pre>
+
 
 🟢 Result: Over a 6.7× improvement in semantic accuracy (METEOR)
 Fine-tuned model now understands terms like "men blue t-shirt for sports wear" instead of generic "a man wearing clothes."
+
+
+
+
 <pre><code>
 fashion-image-captioning/
 │
