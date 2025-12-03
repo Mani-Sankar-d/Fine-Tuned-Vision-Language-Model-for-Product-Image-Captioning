@@ -76,12 +76,13 @@ Save everything as product_captions_filtered.csv
 📁 Resulting directory
 
 After running the script, folder should look like this:
-
+<pre><code>
 data/fashion-dataset/
  ├── images/                 # full dataset
  ├── subset_images/          # 10K sampled images
  ├── styles.csv              # original metadata
  └── product_captions_filtered.csv  # ready for training
+</code></pre>
 
 # Step3. Execute finetune.py 
 
