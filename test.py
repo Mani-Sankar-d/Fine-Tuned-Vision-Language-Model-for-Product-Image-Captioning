@@ -10,7 +10,7 @@ def collate_fn(batch):
     images, captions = zip(*batch)
     return list(images), list(captions)
 
-# Load BLIP model
+# Load finetuned model
 processor = BlipProcessor.from_pretrained("fine_tuned_blip_fashion")
 model = BlipForConditionalGeneration.from_pretrained(
     "fine_tuned_blip_fashion",
