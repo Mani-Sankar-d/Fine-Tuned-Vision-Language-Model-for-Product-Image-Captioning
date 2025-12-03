@@ -8,18 +8,25 @@ Fine-tuned BLIP (Ours)	0.0	  0.89
 🟢 Result: Over a 6.7× improvement in semantic accuracy (METEOR)
 Fine-tuned model now understands terms like "men blue t-shirt for sports wear" instead of generic "a man wearing clothes."
 
-🧩 Project Structure
+fashion-image-captioning/
+│
 ├── data/
 │   └── fashion-dataset/
-│       ├── images/
-│       ├── subset_images/
-│       ├── product_captions_filtered.csv
+│       ├── images/                       # Original Kaggle images
+│       ├── subset_images/                # 10K sampled images
+│       ├── styles.csv                    # Original metadata
+│       └── product_captions_filtered.csv # Final subset CSV (used for training)
+│
 ├── datasets/
-│   ├── train_dataset.py
-│   ├── test_dataset.py
-├── finetune.py
-├── test.py
-└── README.md
+│   ├── train_dataset.py                  # Dataset class for training
+│   └── test_dataset.py                   # Dataset class for evaluation
+│
+├── fine_tuned_blip_fashion/              # Saved fine-tuned model (auto-created)
+│
+├── finetune.py                           # Fine-tuning script             
+├── requirements.txt                      # All dependencies
+└── README.md                             # Project documentation
+
 
 📦 Dataset Preparation
 
